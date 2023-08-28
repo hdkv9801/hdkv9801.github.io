@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Readex Pro');
+
+body {
+    font-family: Readex Pro;
+    background: linear-gradient(180deg, #e9be00 0%, #fff 100%);
+}
+
+.nav-link {
+    color: rgb(213, 185, 0);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(166, 150, 127);
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(166, 150, 127);
+    ;
+}
+
+.sidebar {
+    color: rgb(60, 60, 60);
+    background-color: #fff;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+
+.slide-text {
+    color: rgb(50, 50, 50);
+    background-color: white;
+    margin: auto auto;
+}
+
+.call {
+    animation: myAnim 2s ease 3s infinite normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    40% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    50% {
+        transform: scale3d(0.85, 1.15, 1);
+    }
+
+    65% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    75% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer {
+    background-color: #e9be00;
+    border-top: black;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.useful-info>p>a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    margin: auto auto;
+}
